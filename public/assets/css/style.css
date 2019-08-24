@@ -1,0 +1,62 @@
+body {
+	font-family: 'Short Stack', cursive;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1;
+	background-image: url(../images/heart-3089409_640.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: red;
+}
+
+
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+	font-size: 10px;
+	color: black;
+}
+
+.btn {
+	margin: 30px;
+}
+
+
+a {
+	color: black;
+	font-size: 15px;
+}
+
+#bestFriendModal {
+	text-align: center;
+}
+
+#bestFriendPhoto {
+	max-width: 75%;
+	height: 25%;
+}
+
+
+.jumbotron {
+	background: none;
+}
+
+table {
+    width: 50%;
+	margin: auto;
+}
+
+td {
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+	height: 40px;
+	width: 25%;
+  }

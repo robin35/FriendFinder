@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <!-- METADATA -->
+    <meta charset="UTF-8" />
+    
+    <!-- JQUERY SCRIPT -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+    <!-- STYLESHEETS -->
+    <link rel='stylesheet' type="text/css" href="assets/css/style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Faster+One" rel="stylesheet">
+              
+    <title>Friend Finder Survey</title>
+    
+  </head>
+
+  <body>
+
+    <div class="container text-center">
+
+        <h1>Survey Questions</h1>
+
+        <hr>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="photo">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" id="photo">
+            </div>
+
+
+            <table>
+                <tr>
+                    <td>
+                        <h4>Question 1</h4>
+                        <p>Morning person?</p>
+                        <select class="answer-choice" id=Q1>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 2</h4>
+                        <p>Are you a night owl?</p>
+                        <select class="answer-choice" id=Q2>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 3</h4>
+                        <p>Do you give bear hugs?</p>
+                        <select class="answer-choice" id=Q3>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 4</h4>
+                        <p>Do you like to wine?</p>
+                        <select class="answer-choice" id=Q4>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h4>Question 5</h4>
+                        <p>Are you a foodie?</p>
+                        <select class="answer-choice" id=Q5>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 6</h4>
+                        <p>Do you like cats?</p>        
+                        <select class="answer-choice" id=Q6>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 7</h4>
+                        <p>Do you like dogs?</p>
+                        <select class="answer-choice" id=Q7>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 8</h4>
+                        <p>Life of the party?</p>
+                        <select class="answer-choice" id=Q8>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h4>Question 9</h4>
+                        <p>Love cold weather?</p>
+                        <select class="answer-choice" id=Q9>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <h4>Question 10</h4>
+                        <p>Have a sweet tooth?</p>
+                        <select class="answer-choice" id=Q10>
+                            <option value="0" disabled selected style="display:none"></option>
+                            <option value="1">Strongly Disagree<br />
+                            <option value="2">Somewhat Disagree<br />
+                            <option value="3">No Opinion<br />
+                            <option value="4">Somewhat Agree<br />
+                            <option value="5">Strongly Agree<br />
+                        </select>
+                    </td>
+
+                    <td>
+                        <button id="submitBtn" type="submit" class="btn btn-danger btn-lg">Submit Survey</button>
+                    </td>
+                </tr>
+            </table>
+            
+
+        </form>
+
+   
+
+        <!-- ============================================================================================================================= -->
+        <!-- Modal -->
+        <!-- ============================================================================================================================= -->
+
+		<div id="bestFriendModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Your New Best Friend</h1>
+					</div>
+					<div class="modal-body">
+						<h2 id="bestFriend"></h2>
+						<img id="bestFriendPhoto" src="#" alt="Your New Friend" width="375" height="70" >
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div>
+
+
+
+
+    <!-- ============================================================================================================================= -->
+    <!-- Footer -->
+    <!-- ============================================================================================================================= -->
+
+    <footer>
+        <div class="container">
+            <p><a href="/api/friends">API Friends List</a>  |  <a href="https://github.com/robin35/FriendFinder" target="_blank">GitHub Repo</a></p>
+            Copyright ©
+        </footer>   
+
+    </div>
+  
+
+
+
+    <!-- BOOTSTRAP JS LINK -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    <!-- JS LINK -->
+    <script src="assets/javascript/javascript.js" type= "text/javascript"></script>
+
+
+</body>
+</html>
+
+
+
+
